@@ -9,8 +9,8 @@ func FrontPage() g.Node {
 	return Page(
 		"Canvas",
 		"/",
-		H1(g.Text(`Solutions to problems.`)),
+		H1(g.Text(`khalid & Sania Welcome You`)),
 		P(g.Text(`Do you have problems? We also had problems.`)),
-		P(g.Raw(`Then we created the <em>canvas</em> app, and now we don't! 😬`)),
+		P(g.Raw(`Then we created this page <em>canvas</em> SK, and now we don't! 😬`)),
 	)
 }
